@@ -14,5 +14,6 @@ The required hardware is:
 * 1 x FRDM KL03
 * 1 x MPU-6050 IMU
 * 1 x Breadboard
-* 5 x jumper wires
-* 1 x USB mini to USB A cable for laptop connection (if printed output)
+* 5 x jumper wires (connecting VCC to J3 pin 4, GND and AD0 to J3 pin 6, SCL to J4 pin 2 and SDA to J4 pin 1)
+The cable between Ad0 and J3 pin 6 is not required, but is used to set the I2C address to 0x68.
+* 1 x USB mini to USB A cable for laptop connection (to display printed output)
