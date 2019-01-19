@@ -1245,6 +1245,9 @@ main(void)
 	dTheta[3][3] = cos(theta);
 	
 	Accel[3][1] = {{X_accel},{Y_accel},{Z_accel}};
+	
+// convert from a body centred frame to an external frame
+	
 	for (c = 1; c < 4; c++) {
       for (d = 1; d < 4; d++) {
         for (k = 1; k < 4; k++) {
@@ -1275,7 +1278,7 @@ main(void)
         sum = 0;
       }
     }
-
+//integrate to convert accelerations to final coordinates
 	Vdot[3][1] = Vdot[3][1] + 9.81;
 	
 	V[1][1] = V[1][1] + Vdot[1][1]*dt;
