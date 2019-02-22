@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp
+CMAKE_SOURCE_DIR = /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp
+CMAKE_BINARY_DIR = /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Warp.dir/depend.make
@@ -57,828 +57,828 @@ include CMakeFiles/Warp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Warp.dir/flags.make
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building ASM object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj"
-	/usr/bin/arm-none-eabi-gcc  $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj -c /home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building ASM object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj"
+	/usr/bin/arm-none-eabi-gcc  $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj -c /home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj
 
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj: CMakeFiles/Warp.dir/flags.make
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj: /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj   -c /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj: CMakeFiles/Warp.dir/flags.make
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj: /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj   -c /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.i"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c > CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.i
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.i"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c > CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.i
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.s"
-	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c -o CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.s
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.s"
+	/usr/bin/arm-none-eabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c -o CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.s
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj.requires:
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj.requires:
 
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj.requires
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj.requires
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj.provides: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj.requires
-	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj.provides.build
-.PHONY : CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj.provides
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj.provides: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj.requires
+	$(MAKE) -f CMakeFiles/Warp.dir/build.make CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj.provides.build
+.PHONY : CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj.provides
 
-CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj.provides.build: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj
+CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj.provides.build: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj
 
 
 # Object files for target Warp
 Warp_OBJECTS = \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj" \
-"CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj"
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj" \
+"CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj"
 
 # External object files for target Warp
 Warp_EXTERNAL_OBJECTS =
 
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj
-release/Warp.elf: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj
+release/Warp.elf: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj
 release/Warp.elf: CMakeFiles/Warp.dir/build.make
 release/Warp.elf: ../../../../lib/ksdk_platform_lib/armgcc/KL03Z4/release/libksdk_platform.a
 release/Warp.elf: CMakeFiles/Warp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking C executable release/Warp.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking C executable release/Warp.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Warp.dir/link.txt --verbose=$(VERBOSE)
-	/usr/bin/arm-none-eabi-objcopy -Oihex /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/release/Warp.elf /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/release/Warp.hex
-	/usr/bin/arm-none-eabi-objcopy -Obinary /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/release/Warp.elf /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/release/Warp.bin
-	/usr/bin/arm-none-eabi-objcopy -Osrec /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/release/Warp.elf /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/release/Warp.srec
+	/usr/bin/arm-none-eabi-objcopy -Oihex /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/release/Warp.elf /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/release/Warp.hex
+	/usr/bin/arm-none-eabi-objcopy -Obinary /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/release/Warp.elf /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/release/Warp.bin
+	/usr/bin/arm-none-eabi-objcopy -Osrec /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/release/Warp.elf /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/release/Warp.srec
 
 # Rule to build all files generated by this target.
 CMakeFiles/Warp.dir/build: release/Warp.elf
 
 .PHONY : CMakeFiles/Warp.dir/build
 
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj.requires
-CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/utilities/src/fsl_misc_utilities.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/gcc/startup_MKL03Z4.S.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-boot.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/warp-kl03-ksdk1.1-powermodes.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBMX055.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devADXL362.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMMA8451Q.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devLPS25H.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devHDC1000.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMAG3110.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI7021.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devL3GD20H.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devBME680.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devTCS34725.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSI4705.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devCCS811.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAMG8834.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devPAN1326.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7262.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devSSD1331.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devAS7263.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/SEGGER_RTT_printf.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/i2c/fsl_i2c_irq.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/drivers/src/spi/fsl_spi_irq.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/MKL03Z4/system_MKL03Z4.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/platform/startup/startup.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/boards/Warp/gpio_pins.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devINA219.c.obj.requires
+CMakeFiles/Warp.dir/requires: CMakeFiles/Warp.dir/home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/src/devMPU6050.c.obj.requires
 
 .PHONY : CMakeFiles/Warp.dir/requires
 
@@ -887,6 +887,6 @@ CMakeFiles/Warp.dir/clean:
 .PHONY : CMakeFiles/Warp.dir/clean
 
 CMakeFiles/Warp.dir/depend:
-	cd /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp /home/brw32/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles/Warp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp /home/jc953/Warp-firmware/build/ksdk1.1/work/demos/Warp/armgcc/Warp/CMakeFiles/Warp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Warp.dir/depend
 

@@ -1098,25 +1098,32 @@ main(void)
 
 	enableI2Cpins(menuI2cPullupValue);
 
-	// Initialise Kalman filter terms
-	float dt = 0.526; float P[2][2] = {{3.0,0.0},{0.0,3.0}}; float innovation; float S; // dt was measured manually
-	float K[2] = {0.0, 0.0}; float state_bias = 0.0; float state_angle = 0.0;
-
-	// Declare uncertainties. Q is the process noise covariance matrix and is assumed to be diagonal. R is the observation noise covariance.
-	float Q_angle = 0.0007; float Q_gyroBias = 0.003; float R_measure = 0.001;
+	// Initialise model terms
+	float dt = 0.526; float WInv[3][3] = {{0.0,0.0,1.0},{0.0,1.0,-1.0},{1.0,0.0,1.0}};
+	float dPhi[3][3] = {{1.0,0.0,0.0},{0.0,1.0,0.0},{0.0,0.0,1.0}};
+	float dPsi[3][3] = {{1.0,0.0,0.0},{1.0,0.0,0.0},{0.0,0.0,1.0}};
+	float dTheta[3][3] = {{1.0,0.0,1.0},{0.0,1.0,0.0},{0.0,0.0,1.0}};
+	float P_prev = 0.0; float Q_prev = 0.0; float R_prev = 0.0;
+	float phi = 0; float psi = 0; float theta = 0; float sum = 0.0;
+	float EtaDot[3][1] = {{0},{0},{0}};
+	float Vdot[3][1] = {{0},{0},{0}};
+	float V[3][1] = {{0},{0},{0}};
+	float P = 0.0; float Q = 0.0; float R = 0.0;
+	int c=0; int d = 0; int k=0;
+	float Temp1[3][3] = {{0.0,0.0,0.0},{0.0,0.0,0.0},{0.0,0.0,0.0}};
 
 
 	for (int a=0; a<1000; a++){
 
-	SEGGER_RTT_printf(0, "\rIteration: %d\n", a);
+	SEGGER_RTT_printf(0, "\rRun: %d\n", a);
 
 	/* Check calibration settings*/
-	uint8_t gyroCalib = readSensorRegisterMPU6050(0x1B);
+/*	uint8_t gyroCalib = readSensorRegisterMPU6050(0x1B);
 	uint8_t accelCalib = readSensorRegisterMPU6050(0x1C);
 	uint8_t powerMgmt = readSensorRegisterMPU6050(0x6B);
 	uint8_t powerMgmt2 = readSensorRegisterMPU6050(0x6C);
-
-	/* Read accelerometer registers */
+*/
+	/* Read linear acceleration registers */
 	uint8_t X_acc_H = readSensorRegisterMPU6050(0x3B); 
 	uint8_t X_acc_L = readSensorRegisterMPU6050(0x3C);
 	uint8_t Y_acc_H = readSensorRegisterMPU6050(0x3D);
@@ -1124,7 +1131,7 @@ main(void)
 	uint8_t Z_acc_H = readSensorRegisterMPU6050(0x3F);
 	uint8_t Z_acc_L = readSensorRegisterMPU6050(0x40);
 	
-	/* Read gyro registers */
+	/* Read angular acceleration registers */
 	uint8_t X_gyro_H = readSensorRegisterMPU6050(0x43); 
 	uint8_t X_gyro_L = readSensorRegisterMPU6050(0x44);
 	uint8_t Y_gyro_H = readSensorRegisterMPU6050(0x45);
@@ -1132,18 +1139,18 @@ main(void)
 	uint8_t Z_gyro_H = readSensorRegisterMPU6050(0x47);
 	uint8_t Z_gyro_L = readSensorRegisterMPU6050(0x48);
 	
-	/* Combine low and high bytes */
+	/* Combine lsb and msb registers */
 	uint16_t X_accel = (X_acc_H << 8 )| X_acc_L;
         uint16_t Y_accel = (Y_acc_H << 8 )| Y_acc_L;
         uint16_t Z_accel = (Z_acc_H << 8 )| Z_acc_L;
-	uint16_t X_rate = (X_gyro_H << 8) | X_gyro_L;
-        uint16_t Y_rate = (Y_gyro_H << 8) | Y_gyro_L;
-        uint16_t Z_rate = (Z_gyro_H << 8) | Z_gyro_L;
+	uint16_t P_rate = (X_gyro_H << 8) | X_gyro_L;
+        uint16_t Q_rate = (Y_gyro_H << 8) | Y_gyro_L;
+        uint16_t R_rate = (Z_gyro_H << 8) | Z_gyro_L;
 	
 	int X_accel_n; int Y_accel_n; int Z_accel_n;
-	int X_rate_n; int Y_rate_n; int Z_rate_n;
+	int P_rate_n; int Q_rate_n; int R_rate_n;
 	
-	/* Convert from twos complement to signed integer*/
+	/* Convert from 2 complement to signed int*/
 	if(X_accel >= 32768){
 		X_accel_n = (int)(-(65535-X_accel)+1);
 	} else {
@@ -1159,102 +1166,129 @@ main(void)
         } else {
                 Z_accel_n = (int)Z_accel;
         }
-	if(X_rate >= 32768){
-                X_rate_n = (int)(-(65535-X_rate)+1);
+	if(P_rate >= 32768){
+                P_rate_n = (int)(-(65535-P_rate)+1);
         } else {
-                X_rate_n = (int)X_rate;
+                P_rate_n = (int)P_rate;
         }
-	if(Y_rate >= 32768){
-                Y_rate_n = (int)(-(65535-Y_rate)+1);
+	if(Q_rate >= 32768){
+                Q_rate_n = (int)(-(65535-Q_rate)+1);
         } else {
-                Y_rate_n = (int)Y_rate;
+                Q_rate_n = (int)Q_rate;
         }
-	if(Z_rate >= 32768){
-                Z_rate_n = (int)(-(65535-Z_rate)+1);
+	if(R_rate >= 32768){
+                R_rate_n = (int)(-(65535-R_rate)+1);
         } else {
-                Z_rate_n = (int)Z_rate;
+                R_rate_n = (int)R_rate;
         }
 
-/* Previously used to print intermediate values. No longer used.
-	SEGGER_RTT_printf(0, "\rX_accel is %04x, Y_accel is %04x, Z_accel is %04x\n", X_accel, Y_accel, Z_accel);
-	SEGGER_RTT_printf(0, "\rX_accel is %d, Y_accel is %d, Z_accel is %d\n", X_accel_n, Y_accel_n, Z_accel_n);
-	SEGGER_RTT_printf(0, "\rX_rate is %d, Y_rate is %d, Z_rate is %d\n", X_rate_n, Y_rate_n, Z_rate_n); */
+/* Debug printout
+	SEGGER_RTT_printf(0, "\rX_accel %04x, Y_accel %04x, Z_accel %04x\n", X_accel, Y_accel, Z_accel);
+	SEGGER_RTT_printf(0, "\rX_accel d, Y_accel %d, Z_accel %d\n", X_accel_n, Y_accel_n, Z_accel_n);
+	SEGGER_RTT_printf(0, "\rP_rate %d, Q_rate %d, R_rate %d\n", P_rate_n, Q_rate_n, R_rate_n); */
 
-/* Convert gyroscope readings to degrees per second, assuming full scale range of +- 250 degrees/s from datasheet and 0x1B register reading*/
-	float X_rate_final = (float)X_rate_n/131.072; // Scale factor of 131.072
-	float Y_rate_final = (float)Y_rate_n/131.072;
-	float Z_rate_final = (float)Z_rate_n/131.072;
+/* Convert gyroscope readings to degrees per second, assuming full range of motion */
+	float P_rate_final = (float)P_rate_n/131.072; // Scale factor of 131.072
+	float Q_rate_final = (float)Q_rate_n/131.072;
+	float R_rate_final = (float)R_rate_n/131.072;
 	
-/*Previously used to print intermediate values. No longer used.
-	SEGGER_RTT_printf(0, "\rX_rate in hex is %04x", X_rate);
-	SEGGER_RTT_printf(0, "\rX_rate in deg/s is %d\n", (int)X_rate_final); */
-
-/* Find estimated tilt from accelerometer*/
-	double x_rot = atan2((double)(-Y_accel_n), sqrt((double)(X_accel_n*X_accel_n + Z_accel_n*Z_accel_n)));
-	double y_rot = atan2((double)(X_accel_n) , sqrt((double)(Y_accel_n*Y_accel_n + Z_accel_n*Z_accel_n)));
+	float deltaP = P_rate_final*dt;
+	float deltaQ = Q_rate_final*dt;
+	float deltaR = R_rate_final*dt;	
 	
-
-/* Previously used to print intermediate values. No longer used
-	int x_rotation = (int)(x_rot*100);
-	int y_rotation = (int)(y_rot*100);
-
-	SEGGER_RTT_printf(0, "\rX_ROT in radians is %d, Y_ROT in radians is %d\n", x_rotation, y_rotation);
-
-	// Convert from radians to degrees
-	x_rotation = (int)(x_rot*572);
-	y_rotation = (int)(y_rot*572);
+	P = P_prev + deltaP;
+	Q = Q_prev + deltaQ;
+	R = R_prev + deltaR;
 	
-	SEGGER_RTT_printf(0, "\rX_ROT in degrees is %d\n", x_rotation); */
-
-/* NOW carry out Kalman filter operations*/
-
-	// Step 0 - calculate sensor readings
-	float gyroRate = X_rate_final;
-	float accAngle = (float)x_rot*57.2;
-
-	// Step 1 - predict new angle based on previous angle and gyroscope reading
-	float rate = gyroRate - state_bias;
-	state_angle += dt*rate;
-
-	// Step 2 - update P
-	P[0][0] = dt*(dt*P[1][1] - P[0][1] - P[1][0] + Q_angle);
-	P[0][1] -= dt*P[1][1];
-	P[1][0] -= dt*P[1][1];
-	P[1][1] += Q_gyroBias*dt;
+	P_prev = P; 
+	Q_prev = Q;
+	R_prev = R;
 	
-	// Step 3 - calculate innovation, the difference between prediction and reading
-	innovation = accAngle - state_angle;
-
-	// Step 4 - update S
-	S = P[0][0] + R_measure;
-
-	// Step 5 - update Kalman gain
-	K[0] = P[0][0]/S;
-	K[1] = P[1][0]/S;
-
-	// Step 6 - update angle and bias based on Kalman gain and innovation
-	state_angle += K[0]*innovation;
-	state_bias += K[1]*innovation;
-
-	// Step 7 - final update of P based on Kalman gain
-	float p00_inter = P[0][0];
-	float p01_inter = P[0][1];
-
-	P[0][0] -= K[0]*p00_inter;
-	P[0][1] -= K[0]*p01_inter;
-	P[1][0] -= K[1]*p00_inter;
-	P[1][1] -= K[1]*p01_inter;
+	/*populate W and Dib, update body-frame orientation*/
 	
-	// Print readings
-	int angle_int = (int)(state_angle);
-	int angle_reading_int = (int)(accAngle);
-	int bias_int = (int)(state_bias);
-
-//	int p00 = (int)(P[0][0]*100); int p01 = (int)(P[0][1]*100); int p10 = (int)(P[1][0]*100); int p11 = (int)(P[1][1]*100);
-
-	SEGGER_RTT_printf(0, "\rAngle reading = %d, Angle estimate = %d, Bias estimate = %d\n", angle_reading_int, angle_int, bias_int);
-
-//	SEGGER_RTT_printf(0, "\rP = [%d , %d], [%d , %d]\n", p00, p01, p10, p11);
+	WInv[1][2] = sin(phi)/cos(theta);
+	WInv[1][3] = cos(phi)/cos(theta);
+	WInv[2][2] = cos(phi);
+	WInv[2][3] = -sin(phi);
+	WInv[3][2] = sin(phi)*tan(theta);
+	WInv[3][3] = cos(phi)*tan(theta);
+	
+	float Omega[3][1] = {{P},{Q},{R}};
+    for (int c = 1; c < 4; c++) {
+      for (int d = 1; d < 4; d++) {
+        for (int k = 1; k < 4; k++) {
+          sum = sum + WInv[c][k]*Omega[k][d];
+        }
+ 
+        EtaDot[c][d] = sum;
+        sum = 0;
+      }
+    }
+	phi = phi + EtaDot[1][1]*dt;
+	psi = psi + EtaDot[2][1]*dt;
+	theta = theta + EtaDot[3][1]*dt;
+	
+	dPsi[1][1] = cos(psi);
+	dPsi[1][2] = -sin(psi);
+	dPsi[2][1] = -sin(psi);
+	dPsi[2][2] = cos(psi);
+	
+	dPhi[2][2] = cos(phi);
+	dPhi[2][3] = -sin(phi);
+	dPhi[3][2] = sin(phi);
+	dPhi[3][3] = cos(phi);
+	
+	dTheta[1][1] = cos(theta);
+	dTheta[1][3] = cos(theta);
+	dTheta[3][1] = -sin(theta);
+	dTheta[3][3] = cos(theta);
+	
+	float Accel[3][1] = {{X_accel_n},{Y_accel_n},{Z_accel_n}};
+	
+// convert from a body centred frame to an external frame
+	
+	for (int c = 1; c < 4; c++) {
+      for (int d = 1; d < 4; d++) {
+        for (int k = 1; k < 4; k++) {
+          sum = sum + dPhi[c][k]*Accel[k][d];
+        }
+ 
+        Vdot[c][d] = sum;
+        sum = 0;
+      }
+    }
+	for (c = 1; c < 4; c++) {
+      for (d = 1; d < 4; d++) {
+        for (k = 1; k < 4; k++) {
+          sum = sum + dTheta[c][k]*Vdot[k][d];
+        }
+ 
+        Temp1[c][d] = sum;
+        sum = 0;
+      }
+    }
+	for (c = 1; c < 4; c++) {
+      for (d = 1; d < 4; d++) {
+        for (k = 1; k < 4; k++) {
+          sum = sum + dPsi[c][k]*Temp1[k][d];
+        }
+ 
+        Vdot[c][d] = sum;
+        sum = 0;
+      }
+    }
+//integrate to convert accelerations to final coordinates
+	Vdot[3][1] = Vdot[3][1] + 9.81;
+	
+	V[1][1] = V[1][1] + Vdot[1][1]*dt;
+	V[2][1] = V[2][1] + Vdot[2][1]*dt;
+	V[3][1] = V[3][1] + Vdot[3][1]*dt;
+	
+	float X = X + V[1][1] * dt;
+	float Y = Y + V[2][1] * dt;
+	float Z = Z + V[3][1] * dt;
+	
+	SEGGER_RTT_printf(0, "New Coordinates are (%d,%d,%d)", X,Y,Z);
 
 	}
 

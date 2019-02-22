@@ -1099,19 +1099,18 @@ main(void)
 	enableI2Cpins(menuI2cPullupValue);
 
 	// Initialise model terms
-	float dt = 0.526; float WInv[3][3] = {{0.0,0.0,1.0},{0.0,1.0,-1.0},{1.0,0.0,1.0}}; float J[3][3] = {{1.0,0.0,0.0},{0.0,1.0,0.0},{0.0,0.0,1.0}};
-	float G[3] = {-9.81,0,0};
-	float Dphi[3][3] = {{1.0,0.0,0.0},{0.0,1.0,0.0},{0.0,0.0,1.0}};
-	float Dpsi[3][3] = {{1.0,0.0,0.0},{1.0,0.0,0.0},{0.0,0.0,1.0}};
-	float Dtheta[3][3] = {{1.0,0.0,1.0},{0.0,1.0,0.0},{0.0,0.0,1.0}};
+	float dt = 0.526; float WInv[3][3] = {{0.0,0.0,1.0},{0.0,1.0,-1.0},{1.0,0.0,1.0}};
+	float dPhi[3][3] = {{1.0,0.0,0.0},{0.0,1.0,0.0},{0.0,0.0,1.0}};
+	float dPsi[3][3] = {{1.0,0.0,0.0},{1.0,0.0,0.0},{0.0,0.0,1.0}};
+	float dTheta[3][3] = {{1.0,0.0,1.0},{0.0,1.0,0.0},{0.0,0.0,1.0}};
 	float P_prev = 0.0; float Q_prev = 0.0; float R_prev = 0.0;
-	float phi = ; float psi = 0; float theta = 0; float sum = 0.0;
+	float phi = 0; float psi = 0; float theta = 0; float sum = 0.0;
 	float EtaDot[3][1] = {{0},{0},{0}};
 	float Vdot[3][1] = {{0},{0},{0}};
 	float V[3][1] = {{0},{0},{0}};
-	
-
-
+	float P = 0.0; float Q = 0.0; float R = 0.0;
+	int c=0; int d = 0; int k=0;
+	float Temp1[3][3] = {{0.0,0.0,0.0},{0.0,0.0,0.0},{0.0,0.0,0.0}};
 
 
 	for (int a=0; a<1000; a++){
@@ -1119,11 +1118,11 @@ main(void)
 	SEGGER_RTT_printf(0, "\rRun: %d\n", a);
 
 	/* Check calibration settings*/
-	uint8_t gyroCalib = readSensorRegisterMPU6050(0x1B);
+/*	uint8_t gyroCalib = readSensorRegisterMPU6050(0x1B);
 	uint8_t accelCalib = readSensorRegisterMPU6050(0x1C);
 	uint8_t powerMgmt = readSensorRegisterMPU6050(0x6B);
 	uint8_t powerMgmt2 = readSensorRegisterMPU6050(0x6C);
-
+*/
 	/* Read linear acceleration registers */
 	uint8_t X_acc_H = readSensorRegisterMPU6050(0x3B); 
 	uint8_t X_acc_L = readSensorRegisterMPU6050(0x3C);
@@ -1193,9 +1192,9 @@ main(void)
 	float Q_rate_final = (float)Q_rate_n/131.072;
 	float R_rate_final = (float)R_rate_n/131.072;
 	
-	deltaP = P_rate_final*dt;
-	deltaQ = Q_rate_final*dt;
-	deltaR = R_rate_final*dt;	
+	float deltaP = P_rate_final*dt;
+	float deltaQ = Q_rate_final*dt;
+	float deltaR = R_rate_final*dt;	
 	
 	P = P_prev + deltaP;
 	Q = Q_prev + deltaQ;
@@ -1207,27 +1206,27 @@ main(void)
 	
 	/*populate W and Dib, update body-frame orientation*/
 	
-	W[1][2] = sin(phi)/cos(theta);
-	W[1][3] = cos(phi)/cos(theta);
-	W[2][2] = cos(phi);
-	W[2][3] = -sin(phi);
-	W[3][2] = sin(phi)*tan(theta);
-	W[3][3] = cos(phi)*tan(theta);
+	WInv[1][2] = sin(phi)/cos(theta);
+	WInv[1][3] = cos(phi)/cos(theta);
+	WInv[2][2] = cos(phi);
+	WInv[2][3] = -sin(phi);
+	WInv[3][2] = sin(phi)*tan(theta);
+	WInv[3][3] = cos(phi)*tan(theta);
 	
-	Omega[3][1] = {{P},{Q},{R}};
-    for (c = 1; c < 4; c++) {
-      for (d = 1; d < 4; d++) {
-        for (k = 1; k < 4; k++) {
-          sum = sum + W[c][k]*Omega[k][d];
+	float Omega[3][1] = {{P},{Q},{R}};
+    for (int c = 1; c < 4; c++) {
+      for (int d = 1; d < 4; d++) {
+        for (int k = 1; k < 4; k++) {
+          sum = sum + WInv[c][k]*Omega[k][d];
         }
  
         EtaDot[c][d] = sum;
         sum = 0;
       }
     }
-	Phi = Phi + EtaDot[1][1]*dt;
-	Psi = Psi + EtaDot[2][1]*dt;
-	Theta = Theta + EtaDot[3][1]*dt;
+	phi = phi + EtaDot[1][1]*dt;
+	psi = psi + EtaDot[2][1]*dt;
+	theta = theta + EtaDot[3][1]*dt;
 	
 	dPsi[1][1] = cos(psi);
 	dPsi[1][2] = -sin(psi);
@@ -1244,14 +1243,14 @@ main(void)
 	dTheta[3][1] = -sin(theta);
 	dTheta[3][3] = cos(theta);
 	
-	Accel[3][1] = {{X_accel},{Y_accel},{Z_accel}};
+	float Accel[3][1] = {{X_accel_n},{Y_accel_n},{Z_accel_n}};
 	
 // convert from a body centred frame to an external frame
 	
-	for (c = 1; c < 4; c++) {
-      for (d = 1; d < 4; d++) {
-        for (k = 1; k < 4; k++) {
-          sum = sum + DPhi[c][k]*Accel[k][d];
+	for (int c = 1; c < 4; c++) {
+      for (int d = 1; d < 4; d++) {
+        for (int k = 1; k < 4; k++) {
+          sum = sum + dPhi[c][k]*Accel[k][d];
         }
  
         Vdot[c][d] = sum;
@@ -1261,17 +1260,17 @@ main(void)
 	for (c = 1; c < 4; c++) {
       for (d = 1; d < 4; d++) {
         for (k = 1; k < 4; k++) {
-          sum = sum + DTheta[c][k]*Vdot[k][d];
+          sum = sum + dTheta[c][k]*Vdot[k][d];
         }
  
-        float Temp1[c][d] = sum;
+        Temp1[c][d] = sum;
         sum = 0;
       }
     }
 	for (c = 1; c < 4; c++) {
       for (d = 1; d < 4; d++) {
         for (k = 1; k < 4; k++) {
-          sum = sum + DPsi[c][k]*Temp1[k][d];
+          sum = sum + dPsi[c][k]*Temp1[k][d];
         }
  
         Vdot[c][d] = sum;
@@ -1285,9 +1284,9 @@ main(void)
 	V[2][1] = V[2][1] + Vdot[2][1]*dt;
 	V[3][1] = V[3][1] + Vdot[3][1]*dt;
 	
-	X = X + V[1][1] * dt;
-	Y = Y + V[2][1] * dt;
-	Z = Z + V[3][1] * dt;
+	float X = X + V[1][1] * dt;
+	float Y = Y + V[2][1] * dt;
+	float Z = Z + V[3][1] * dt;
 	
 	SEGGER_RTT_printf(0, "New Coordinates are (%d,%d,%d)", X,Y,Z);
 
